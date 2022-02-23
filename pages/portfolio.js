@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbOpenTunes from '../public/images/opentunes.png'
 import thumbAvalanche from '../public/images/avalanche.png'
 import thumbFloppy from '../public/images/floppy.png'
+import thumb8sian from '../public/images/8sian.png'
 import thumbShopifyUpsell from '../public/images/shopifyupsell.png'
 
 const Works = () => (
@@ -42,6 +43,16 @@ const Works = () => (
           <WorkGridItem id="floppy" title="Floppy NFT" thumbnail={thumbFloppy}>
             A NFT colleciton launch with cool website design and mint function
             integrated on the website itself.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="8sian"
+            title="8SIAN CNY Collectibles"
+            thumbnail={thumb8sian}
+          >
+            A CNY special edition collection for the 8sian community based on
+            ERC1155 contract.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
